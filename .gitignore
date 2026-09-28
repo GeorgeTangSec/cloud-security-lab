@@ -1,0 +1,27 @@
+# Secrets and environment files
+.env
+*.env
+*.pem
+*.key
+*.p12
+*.pfx
+
+# AWS credentials
+.aws/
+credentials
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor files
+.DS_Store
+.vscode/
